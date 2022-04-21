@@ -1,0 +1,70 @@
+.container {
+  /* height: calc(100vh - 100px); */
+  display: flex;
+  position: static;
+}
+
+.left {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  margin: 50px;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.price {
+  color: #d1411e;
+  font-size: 24px !important;
+  font-weight: 400;
+}
+.extrasText {
+  margin-top: 20px;
+}
+.sizes {
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 3px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.extraSize {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  border-width: 3px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.values {
+  padding: 5px;
+}
+.dropDownContainer2 {
+  width: 300px;
+}
+
+.inputField {
+  margin-top: 20px;
+  width: 100px;
+  border-width: medium;
+  height: 30px;
+  align-items: center;
+}
+
+.submitButton {
+  margin-left: 20px;
+  width: 100px;
+  border-radius: 20px;
+  height: 30px;
+  color: white;
+  background-color: #d1411e;
+  cursor: pointer;
+}
